@@ -5,8 +5,10 @@
 
 @import './base/base';
 
+@import './utils/font';
+
 @import './layout/sidebar';
 
-@import './pages/index.scss';
+@import './pages/assignment.scss';
 
 @import "../../node_modules/bootstrap";

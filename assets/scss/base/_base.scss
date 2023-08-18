@@ -3,7 +3,10 @@ img {
   height: auto;
   vertical-align: middle;
 }
-
+a {
+  text-decoration: none !important;
+  color: inherit !important;
+}
 .material-icons {
   vertical-align: top;
 }

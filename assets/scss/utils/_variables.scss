@@ -379,6 +379,7 @@ $spacers: (
   3: $spacer,
   4: $spacer * 1.5,
   5: $spacer * 3,
+  6: $spacer * 3.125,
 ) !default;
 // scss-docs-end spacer-variables-maps
 
@@ -450,9 +451,9 @@ $grid-breakpoints: (
 $container-max-widths: (
   sm: 540px,
   md: 720px,
-  lg: 960px,
+  lg: 948px,
   xl: 1140px,
-  xxl: 1320px
+  xxl: 1400px
 ) !default;
 // scss-docs-end container-max-widths
 
@@ -563,7 +564,7 @@ $font-weight-bolder:          bolder !default;
 $font-weight-base:            $font-weight-normal !default;
 
 $line-height-base:            1.5 !default;
-$line-height-sm:              1.25 !default;
+$line-height-sm:              1.375 !default;
 $line-height-lg:              2 !default;
 
 $h1-font-size:                $font-size-base * 2.5 !default;

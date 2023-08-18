@@ -1,0 +1,16 @@
+.dropdown {
+  .dropdown-toggle::after {
+    font-family: 'Material Icons';
+    content: "expand_more";
+    font-size: 24px;
+    line-height: 1;
+    color: $success;
+    margin-left: 9px;
+    vertical-align: middle;
+    border: none;
+  }
+}
+
+.top-navbar-hover:hover {
+  opacity: 0.7;
+}
