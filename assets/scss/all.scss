@@ -1,11 +1,11 @@
 @import "https://fonts.googleapis.com/icon?family=Material+Icons"; // icon CDN
+@import "https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto+Mono:wght@400;700&display=swap"; // google fonts CDN
 @import "../../node_modules/bootstrap/scss/functions";
 @import './utils/variables';
 
+@import './base/base';
 
-@import './layout/header.scss';
-@import './layout/footer.scss';
-
+@import './layout/sidebar';
 
 @import './pages/index.scss';
 
