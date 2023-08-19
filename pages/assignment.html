@@ -10,8 +10,8 @@
 
     <div class="d-flex align-items-start">
       <%- include('./layout/sidebar'); -%>
-      <!-- navbar -->
       <div class="container px-3"> 
+        <!-- top-navbar -->
         <nav class="navbar navbar-expand-lg bg-body-tertiary py-3">
           <div class="container-fluid align-items-baseline px-3">
             <div class="d-flex align-items-baseline">
@@ -52,6 +52,42 @@
             </div>
           </div>
         </nav>
+        <!-- main-content -->
+        <div class="px-3">
+          <!-- left-drowdown -->
+          <div class="dropdown">
+            <a class="dropdown-toggle fw-bold" id="leftDropdownButton" data-bs-toggle="dropdown" aria-expanded="false">
+              All (4)
+            </a>
+            <ul class="dropdown-menu fs-8 lh-lg" aria-labelledby="leftDropdownButton" style="width:320px">
+              <li>
+                <a class="dropdown-item border-bottom border-gray" href="#">
+                <p class="mb-1 d-flex">Chapter Assignment 2<span class="ms-auto">4 hrs ago</span></p>
+                <h4 class="d-flex align-items-center"><span class="h6 lh-base fw-bold text-truncate" style="max-width:189px">Please check this file for me, thanks!</span><span class="ms-auto fs-8 text-secondary">Emily Wang</span></h4>
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item border-bottom border-gray" href="#">
+                <p class="mb-1 d-flex">Chapter Assignment 1<span class="ms-auto">12 hrs ago</span></p>
+                <h4 class="d-flex align-items-center"><span class="h6 lh-base fw-bold text-truncate" style="max-width:189px">My Homework</span><span class="ms-auto fs-8 text-secondary">David Xu</span></h4>
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item border-bottom border-gray" href="#">
+                <p class="mb-1 d-flex">Final Assignment<span class="ms-auto">18 hrs ago</span></p>
+                <h4 class="d-flex align-items-center"><span class="h6 lh-base fw-bold text-truncate" style="max-width:189px">Have a problem with this code.</span><span class="ms-auto fs-8 text-secondary">Tony Wei</span></h4>
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">
+                <p class="mb-1 d-flex">Final Assignment<span class="ms-auto">19 hrs ago</span></p>
+                <h4 class="d-flex align-items-center"><span class="h6 lh-base fw-bold text-truncate" style="max-width:189px">Did I do it right?</span><span class="ms-auto fs-8 text-secondary">Christina Lin</span></h4>
+                </a>
+              </li>
+            </ul>
+          </div>
+          
+        </div>
       </div>
     </div>
 

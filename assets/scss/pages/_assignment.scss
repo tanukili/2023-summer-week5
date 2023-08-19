@@ -1,4 +1,7 @@
 .dropdown {
+  .dropdown-menu {
+    margin-top: 6px !important;
+  }
   .dropdown-toggle::after {
     font-family: 'Material Icons';
     content: "expand_more";
