@@ -1,3 +1,14 @@
-.sidebar-hover:hover {
-  border-left: 4px solid $success !important;
+.sidebar {
+  position: fixed !important; // 將位置固定在瀏覽器視窗
+  min-height: 100vh; // 最小高度: 100%視窗高
+  min-width: 296px; // 最小寬度
+  .nav-link {
+    &.active {
+      border-left: 4px solid $success !important;
+    }
+    &:hover {
+      background: $gray-400;
+      border-left: 4px solid $gray-400 !important;
+    }
+  }
 }
