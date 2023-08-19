@@ -1,3 +1,4 @@
+// 下拉選單樣式
 .dropdown {
   .dropdown-menu {
     margin-top: 6px !important;
@@ -13,7 +14,32 @@
     border: none;
   }
 }
-
-.top-navbar-hover:hover {
+// nav-link hover
+.nav-link:hover {
   opacity: 0.7;
+}
+// right-card
+.card {
+  .avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    -o-object-fit: cover;
+    flex-shrink: 0;
+  }
+  .code-style {
+    color: $success;
+    background: $gray-100;
+    padding: 0 4px;
+    border-radius: 2px;
+  }
+  .btn::before {
+    font-family: 'Material Icons';
+    content: "attach_file";
+    font-size: 24px;
+    font-weight: 400;
+    margin-right: 8px;
+    vertical-align: middle;
+  }
 }

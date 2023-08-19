@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>index</title>
-  </head>
-  <body>
 
-    <%- include('./layout/sidebar'); -%>
-    <div class="container px-3" style="margin-left: 296px;"> 
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>index</title>
+</head>
+
+<body>
+
+  <%- include('./layout/sidebar'); -%>
+    <div class="container px-3" style="margin-left: 296px;">
       <!-- top-navbar -->
       <nav class="navbar navbar-expand-lg bg-body-tertiary py-3">
         <div class="container-fluid align-items-baseline px-3">
@@ -18,7 +20,8 @@
               <h1 class="fs-4 fw-bold lh-sm">Assignment</h1>
             </a>
             <div class="dropdown">
-              <a class="dropdown-toggle fw-bold" id="topNavbarDropdownButton" data-bs-toggle="dropdown" aria-expanded="false">
+              <a class="dropdown-toggle fw-bold" id="topNavbarDropdownButton" data-bs-toggle="dropdown"
+                aria-expanded="false">
                 All Courses
               </a>
               <ul class="dropdown-menu" aria-labelledby="topNavbarDropdownButton">
@@ -28,13 +31,14 @@
               </ul>
             </div>
           </div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#topNavbarDropdown" aria-controls="topNavbarDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#topNavbarDropdown"
+            aria-controls="topNavbarDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse justify-content-end" id="topNavbarDropdown">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="top-navbar-hover nav-link p-0 me-4" aria-current="page" href="#">
+                <a class="nav-link p-0 me-4" aria-current="page" href="#">
                   <span class="material-icons">
                     search
                   </span>
@@ -42,7 +46,7 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a class="top-navbar-hover nav-link p-0" href="#">
+                <a class="nav-link p-0" href="#">
                   <span class="material-icons">
                     notifications_active
                   </span>
@@ -54,43 +58,126 @@
         </div>
       </nav>
       <!-- main-content -->
-      <div class="px-3">
+      <div class="d-flex justify-content-between px-3">
         <!-- left-drowdown -->
-        <div class="dropdown">
+        <div class="dropdown" style="width:34.78%">
           <a class="dropdown-toggle fw-bold" id="leftDropdownButton" data-bs-toggle="dropdown" aria-expanded="false">
             All (4)
           </a>
           <ul class="dropdown-menu fs-8 lh-lg" aria-labelledby="leftDropdownButton" style="width:320px">
             <li>
               <a class="dropdown-item border-bottom border-gray" href="#">
-              <p class="mb-1 d-flex">Chapter Assignment 2<span class="ms-auto">4 hrs ago</span></p>
-              <h4 class="d-flex align-items-center"><span class="h6 lh-base fw-bold text-truncate" style="max-width:189px">Please check this file for me, thanks!</span><span class="ms-auto fs-8 text-secondary">Emily Wang</span></h4>
+                <p class="mb-1 d-flex">Chapter Assignment 2<span class="ms-auto">4 hrs ago</span></p>
+                <h4 class="d-flex align-items-center"><span class="h6 lh-base fw-bold text-truncate"
+                    style="max-width:189px">Please check this file for me, thanks!</span><span
+                    class="ms-auto fs-8 text-secondary">Emily Wang</span></h4>
               </a>
             </li>
             <li>
               <a class="dropdown-item border-bottom border-gray" href="#">
-              <p class="mb-1 d-flex">Chapter Assignment 1<span class="ms-auto">12 hrs ago</span></p>
-              <h4 class="d-flex align-items-center"><span class="h6 lh-base fw-bold text-truncate" style="max-width:189px">My Homework</span><span class="ms-auto fs-8 text-secondary">David Xu</span></h4>
+                <p class="mb-1 d-flex">Chapter Assignment 1<span class="ms-auto">12 hrs ago</span></p>
+                <h4 class="d-flex align-items-center"><span class="h6 lh-base fw-bold text-truncate"
+                    style="max-width:189px">My Homework</span><span class="ms-auto fs-8 text-secondary">David Xu</span>
+                </h4>
               </a>
             </li>
             <li>
               <a class="dropdown-item border-bottom border-gray" href="#">
-              <p class="mb-1 d-flex">Final Assignment<span class="ms-auto">18 hrs ago</span></p>
-              <h4 class="d-flex align-items-center"><span class="h6 lh-base fw-bold text-truncate" style="max-width:189px">Have a problem with this code.</span><span class="ms-auto fs-8 text-secondary">Tony Wei</span></h4>
+                <p class="mb-1 d-flex">Final Assignment<span class="ms-auto">18 hrs ago</span></p>
+                <h4 class="d-flex align-items-center"><span class="h6 lh-base fw-bold text-truncate"
+                    style="max-width:189px">Have a problem with this code.</span><span
+                    class="ms-auto fs-8 text-secondary">Tony Wei</span></h4>
               </a>
             </li>
             <li>
               <a class="dropdown-item" href="#">
-              <p class="mb-1 d-flex">Final Assignment<span class="ms-auto">19 hrs ago</span></p>
-              <h4 class="d-flex align-items-center"><span class="h6 lh-base fw-bold text-truncate" style="max-width:189px">Did I do it right?</span><span class="ms-auto fs-8 text-secondary">Christina Lin</span></h4>
+                <p class="mb-1 d-flex">Final Assignment<span class="ms-auto">19 hrs ago</span></p>
+                <h4 class="d-flex align-items-center"><span class="h6 lh-base fw-bold text-truncate"
+                    style="max-width:189px">Did I do it right?</span><span class="ms-auto fs-8 text-secondary">Christina
+                    Lin</span></h4>
               </a>
             </li>
           </ul>
         </div>
-        
+        <!-- right-card -->
+        <div style="width:63.5%">
+          <p class="fs-8 text-secondary lh-lg text-end mb-2">2 comments</p>
+          <div class="card">
+            <div class="card-header d-flex justify-content-between align-items-center">
+              <div>
+                <p class="fs-8 lh-lg mb-1">Chapter Assignment 2 / HTML&CSS</p>
+                <h3 class="fs-6 fw-bold">Please check this file for me, thanks!</h3>
+              </div>
+              <div class="dropdown dropstart">
+                <a data-bs-toggle="dropdown" id="dropdownEdit">
+                  <span class="material-icons">
+                    more_vert
+                  </span>
+                </a>
+                <a href="#"></a>
+                <ul class="dropdown-menu" aria-labelledby="dropdownEdit">
+                  <li><button class="dropdown-item" type="button">Action</button></li>
+                  <li><button class="dropdown-item" type="button">Another action</button></li>
+                  <li><button class="dropdown-item" type="button" download="...">Something else here</button></li>
+                </ul>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="d-flex">
+                <img class="avatar me-2" src="../assets/images/emilywang.jpeg" alt="questioner">
+                <div class="border-bottom border-gray pe-3">
+                  <h5 class="fs-6 fw-bold mb-1">Emily Wang</h5>
+                  <p class="card-text fs-8 lh-lg text-dark">10:38 AM (4 hours ago)</p>
+                  <p class="card-text fs-7 py-3">Hi Teacher, the attached file is my homework of chapter 2. And here
+                    comes a question: Why in the following code the height of the <span class="code-style">div</span> is
+                    bigger than the height of the <span class="code-style">img</span> ? There is a gap below the image,
+                    but it doesn’t seems to be a padding/margin.<br>What is the gap or extra space below image?</p>
+                  <button class="btn btn-light border rounded-1 fw-bold pe-3 mb-3" type="button">HW-2-David.zip</button>
+                </div>
+              </div>
+              <div class="d-flex mt-3">
+                <img class="avatar me-2" src="../assets/images/andychen.jpeg" alt="answer">
+                <div class="fs-7 pe-3">
+                  <div class="d-flex justify-content-between">
+                    <div>
+                      <h5 class="fs-6 fw-bold mb-1">Andy Chen (You)</h5>
+                      <p class="card-text fs-8 lh-lg text-dark">13:24 AM (1 hours ago)</p>
+                    </div>
+                    <ul class="navbar-nav flex-row fs-4">
+                      <li class="nav-item">
+                        <a href="#">
+                          <span class="material-icons nav-link p-0 me-4">
+                            star_outline
+                          </span>
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="#">
+                          <span class="material-icons nav-link p-0">
+                            edit
+                          </span>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <p class="card-text pt-3">Hi David, by default, an image is rendered inline, like a letter so it sits
+                    on the same line that a, b, c and d sit on. There is space below that line for the descenders you
+                    find on letters like g, j, p and q.
+                  </p>
+                  <p class="my-3 py-1">You can:</p>
+                  <ul>
+                    <li>adjust the <span class="code-style">vertical-align</span> of the image to position it elsewhere
+                      (e.g. the <span class="code-style">middle</span> ) or</li>
+                    <li>change the <span class="code-style">display</span> so it isn’t inline.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
 
-    <script type="module" src="../main.js"></script>
-  </body>
+      <script type="module" src="../main.js"></script>
+</body>
+
 </html>
