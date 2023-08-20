@@ -1,0 +1,27 @@
+// top-nav 
+.add-new {
+  cursor: pointer;
+  &:hover {
+    color: $success;
+  }
+}
+// modal
+.modal {
+  // select 樣式
+  .form-select {
+    background-position: right 1rem center;
+    background-size: 12px;
+  }
+  // 隱藏滾動條
+  .modal-body {
+    scrollbar-width: none; // firefox
+  }
+  ::-webkit-scrollbar {
+    display: none; // Chrome Safari
+  }
+  // footer 推擠修正
+  .modal-footer {
+    margin-left: -16px;
+    margin-right: -16px;
+  }
+}
