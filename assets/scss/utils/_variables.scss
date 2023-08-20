@@ -318,7 +318,6 @@ $theme-colors: (
   "danger":     $danger,
   "light":      $light,
   "dark":       $dark,
-  "gray":       $gray-400,
 ) !default;
 // scss-docs-end theme-colors-map
 
@@ -585,7 +584,6 @@ $font-sizes: (
   5: $h5-font-size,
   6: $h6-font-size,
   7: 0.875rem,
-  8: 0.75rem,
 ) !default;
 // scss-docs-end font-sizes
 
