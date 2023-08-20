@@ -1,64 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>index</title>
-    <script type="module" crossorigin src="/2023-summer-week5/assets/main-9ab1a10f.js"></script>
-    <link rel="stylesheet" href="/2023-summer-week5/assets/main-39a5cf01.css">
-  </head>
-  <body>
 
-    <div class="d-flex">
-      <nav class="navbar navbar-expand navbar-light bg-light flex-column justify-content-between align-items-start py-3" style="width: 296px;height: 100vh;">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>index</title>
+  <script type="module" crossorigin src="/2023-summer-week5/assets/main-960b3c5d.js"></script>
+  <link rel="stylesheet" href="/2023-summer-week5/assets/main-0ac6f622.css">
+</head>
+
+<body>
+
+  <nav class="sidebar navbar navbar-expand navbar-light bg-light flex-column justify-content-between align-items-start py-3">
   <div class="container-fluid d-flex flex-column align-items-start px-0">
     <a class="navbar-brand p-3" href="index.html">
       <img src="/2023-summer-week5/assets/logo-ANSWER-5336fb45.svg" alt="logo"  class="d-inline-block align-text-top px-3 mb-1">
     </a>
     <div class="collapse navbar-collapse w-100">
       <ul class="navbar-nav d-flex flex-column w-100">
-        <li class="nav-item">
-          <a class="nav-link px-4 border-start border-light border-4" aria-current="page" href="#">
+        <li class="nav-item my-2">
+          <a class="nav-link border-start border-light border-4" aria-current="page" href="#">
             <span class="material-icons ps-1 me-3">
               assessment
             </span>
             Dashboard
           </a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link px-4 border-start border-light border-4" href="#">
+        <li class="nav-item my-2">
+          <a class="nav-link border-start border-light border-4" href="#">
             <span class="material-icons ps-1 me-3">
               question_answer
             </span>
             Question
           </a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link px-4 border-start border-light border-4" href="assignment.html">
+        <li class="nav-item my-2">
+          <a class="nav-link active border-start border-light border-4" href="assignment.html">
             <span class="material-icons ps-1 me-3">
               assignment
             </span>
             Assignment
           </a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link px-4 border-start border-light border-4" href="#">
+        <li class="nav-item my-2">
+          <a class="nav-link border-start border-light border-4" href="#">
             <span class="material-icons ps-1 me-3">
               video_library
             </span>
             Course
           </a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link px-4 border-start border-light border-4" href="admin.html">
+        <li class="nav-item my-2">
+          <a class="nav-link border-start border-light border-4" href="admin.html">
             <span class="material-icons ps-1 me-3">
               people
             </span>
             Admin
           </a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item my-2">
           <a class="nav-link border-start border-light border-4" href="#">
             <span class="material-icons ps-1 me-3">
               settings
@@ -73,13 +74,222 @@
     <img class="rounded-circle mx-3" src="/2023-summer-week5/assets/andychen-f14fef59.jpeg" alt="user-avatar" style="width: 40px;height: 40px;">
     <div>
       <p class="fw-bold mb-1">Andy Chen</p>
-      <p class="fs-7">andy0401@mail.com</p>
+      <small class="fs-7 text-muted">andy0401@mail.com</small>
     </div>
   </div>
-</nav>      
-      <h1 class="index-title">我是任務頁面</h1>
+</nav>    <div class="container px-3 py-3" style="margin-left: 296px;">
+      <!-- top-navbar -->
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid align-items-baseline px-3">
+          <div class="d-flex align-items-baseline">
+            <a class="navbar-brand py-3 me-6" href="assignment.html">
+              <h1 class="fs-4 fw-bold lh-sm">Assignment</h1>
+            </a>
+            <div class="dropdown">
+              <a class="dropdown-toggle fw-bold" id="topNavbarDropdownButton" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                All Courses
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="topNavbarDropdownButton">
+                <li><a class="dropdown-item" href="#">Courses 01</a></li>
+                <li><a class="dropdown-item" href="#">Courses 02</a></li>
+                <li><a class="dropdown-item" href="#">Courses 03</a></li>
+              </ul>
+            </div>
+          </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#topNavbarDropdown"
+            aria-controls="topNavbarDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="topNavbarDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link p-0 me-4" aria-current="page" href="#">
+                  <span class="material-icons">
+                    search
+                  </span>
+                  <span class="d-lg-none">Home</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link p-0" href="#">
+                  <span class="material-icons">
+                    notifications_active
+                  </span>
+                  <span class="d-lg-none">Features</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- main-content -->
+      <div class="d-flex justify-content-between px-3">
+        <!-- left-list -->
+        <div style="width:34.78%">
+          <div class="dropdown mb-1">
+            <a class="dropdown-toggle fw-bold" id="leftDropdownButton" data-bs-toggle="dropdown" aria-expanded="false">
+              All (4)
+            </a>
+            <ul class="dropdown-menu lh-lg" aria-labelledby="leftDropdownButton">
+              <li>
+                <a class="dropdown-item" href="#">
+                  Selection 1
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">
+                  Selection 2
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">
+                  Selection 3
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="list-group rounded-1">
+            <a href="#" class="list-group-item list-group-item-action">
+              <small class="mb-1 d-flex">Chapter Assignment 2<span class="ms-auto">4 hrs ago</span></small>
+              <div class="d-flex">
+                <h4 class="fs-6 lh-base fw-bold text-truncate" style="max-width:189px">
+                  Please check this file for me, thanks!
+                </h4>
+                <small class="ms-auto text-muted">Emily Wang</small>
+              </div>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action">
+              <small class="mb-1 d-flex">Chapter Assignment 1<span class="ms-auto">12 hrs ago</span></small>
+              <div class="d-flex">
+                <h4 class="fs-6 lh-base fw-bold text-truncate" style="max-width:189px">
+                  My Homework
+                </h4>
+                <small class="ms-auto text-muted">David Xu</small>
+              </div>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action">
+              <small class="mb-1 d-flex">Final Assignment<span class="ms-auto">18 hrs ago</span></small>
+              <div class="d-flex">
+                <h4 class="fs-6 lh-base fw-bold text-truncate" style="max-width:189px">
+                  Have a problem with this code.
+                </h4>
+                <small class="ms-auto text-muted">Tony Wei</small>
+              </div>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action">
+              <small class="mb-1 d-flex">Final Assignment<span class="ms-auto">19 hrs ago</span></small>
+              <div class="d-flex">
+                <h4 class="fs-6 lh-base fw-bold text-truncate" style="max-width:189px">
+                  Did I do it right?
+                </h4>
+                <small class="ms-auto text-muted">Christina
+                  Lin</small>
+              </div>
+            </a>
+          </div>
+        </div>
+        <!-- right-card -->
+        <div style="width:63.5%">
+          <p class="small text-muted lh-lg text-end mb-2">2 comments</p>
+          <div class="card rounded-1">
+            <div class="card-header d-flex justify-content-between align-items-center">
+              <div>
+                <small class="lh-lg mb-1">Chapter Assignment 2 / HTML&CSS</small>
+                <h3 class="fs-6 fw-bold">Please check this file for me, thanks!</h3>
+              </div>
+              <div class="dropdown dropstart">
+                <a data-bs-toggle="dropdown" id="dropdownEdit">
+                  <span class="material-icons">
+                    more_vert
+                  </span>
+                </a>
+                <a href="#"></a>
+                <ul class="dropdown-menu" aria-labelledby="dropdownEdit">
+                  <li><button class="dropdown-item" type="button">Action</button></li>
+                  <li><button class="dropdown-item" type="button">Another action</button></li>
+                  <li><button class="dropdown-item" type="button" download="...">Something else here</button></li>
+                </ul>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="d-flex">
+                <img class="avatar me-2" src="/2023-summer-week5/assets/emilywang-cc5a821b.jpeg" alt="questioner">
+                <div class="border-bottom border-gray pe-3">
+                  <h5 class="fs-6 fw-bold mb-1">Emily Wang</h5>
+                  <p class="card-text lh-lg text-muted">10:38 AM (4 hours ago)</p>
+                  <p class="card-text fs-7 py-3">Hi Teacher, the attached file is my homework of chapter 2. And here
+                    comes a question: Why in the following code the height of the <span class="code-style">div</span> is
+                    bigger than the height of the <span class="code-style">img</span> ? There is a gap below the image,
+                    but it doesn’t seems to be a padding/margin.<br>What is the gap or extra space below image?</p>
+                  <button class="btn btn-light border rounded-1 fw-bold ps-1 mb-3" type="button">HW-2-David.zip</button>
+                </div>
+              </div>
+              <div class="d-flex mt-3">
+                <img class="avatar me-2" src="/2023-summer-week5/assets/andychen-f14fef59.jpeg" alt="answer">
+                <div class="fs-7 pe-3">
+                  <div class="d-flex justify-content-between">
+                    <div>
+                      <h5 class="fs-6 fw-bold mb-1">Andy Chen (You)</h5>
+                      <small class="card-text lh-lg text-muted">13:24 AM (1 hours ago)</small>
+                    </div>
+                    <ul class="navbar-nav flex-row fs-4">
+                      <li class="nav-item">
+                        <a href="#">
+                          <span class="material-icons nav-link p-0 me-4">
+                            star_outline
+                          </span>
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="#">
+                          <span class="material-icons nav-link p-0">
+                            edit
+                          </span>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <p class="card-text pt-3">Hi David, by default, an image is rendered inline, like a letter so it sits
+                    on the same line that a, b, c and d sit on. There is space below that line for the descenders you
+                    find on letters like g, j, p and q.
+                  </p>
+                  <p class="my-3 py-1">You can:</p>
+                  <ul>
+                    <li>adjust the <span class="code-style">vertical-align</span> of the image to position it elsewhere
+                      (e.g. the <span class="code-style">middle</span> ) or</li>
+                    <li>change the <span class="code-style">display</span> so it isn’t inline.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- bottom-part -->
+          <div class="d-flex my-3">
+            <ul class="pagination align-items-center mb-0">
+              <li class="page-item me-4">
+                <a class="page-link p-0 border-0 rounded-1" href="#" aria-label="Previous">
+                  <span class="material-icons" aria-hidden="true">
+                    chevron_left
+                  </span>
+                </a>
+              </li>
+              <li class="page-item">
+                <a class="page-link p-0 border-0 rounded-1" href="#" aria-label="Next">
+                  <span class="material-icons"  aria-hidden="true">
+                    chevron_right
+                  </span>
+                </a>
+              </li>
+            </ul>
+            <button class="flex-shrink-0 btn btn-outline-success fw-bold rounded-1 ms-auto me-3" type="button">Mark as read</button>
+            <button class="flex-shrink-0 btn btn-success fw-bold rounded-1" type="button">Reply</button>
+          </div>
+        </div>
+      </div>
     </div>
 
-    
-  </body>
+      
+</body>
+
 </html>
