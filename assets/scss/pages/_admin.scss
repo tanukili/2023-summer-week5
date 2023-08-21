@@ -1,10 +1,11 @@
-// top-nav 
-.add-new {
+// top-nav , view-modal
+.hover-style {
   cursor: pointer;
   &:hover {
     color: $success;
   }
 }
+
 // modal
 .modal {
   // select 樣式
@@ -23,5 +24,64 @@
   .modal-footer {
     margin-left: -16px;
     margin-right: -16px;
+  }
+  // readonly 樣式
+  input[readonly] {
+    background: $gray-100;
+    border: none;
+  }
+  // view modal 設定
+  .card {
+    img {
+      max-width: 141px;
+      height: 141px;
+      object-fit: cover;
+      margin-right: -8px;
+    }
+    // collapse arrow change
+    .collapse-icon {
+      &.collapsed::after {
+        content: '\e5cf'; 
+      }
+      &::after {
+        font-family: 'Material Icons';
+        content: '\e5ce'; 
+        color: $success;
+        font-size: 24px;
+        line-height: 1;
+      }
+    }
+  }
+}
+
+// table
+.table {
+  // 調整版型
+  th:first-of-type {
+    padding-left: 0;
+  }
+  thead {
+    th {
+      padding: 0 8px 4px;
+      &:last-child {
+        padding-right: 0;
+      }
+      .material-icons {
+        font-size: 18px;
+      }
+    }
+  }
+  tbody > * {
+    // 列表中第 5 ~ 6 個元素
+    td:nth-child(n+5):nth-child(-n+6) {
+      width: 40px;
+    }
+    td:last-of-type {
+      padding-right: 0;
+      padding-left: 16px;
+    }
+    th {
+      font-weight: 400;
+    }
   }
 }

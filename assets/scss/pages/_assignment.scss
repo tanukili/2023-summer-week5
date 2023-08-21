@@ -12,7 +12,7 @@
   }
 }
 // icon hover
-.nav-item {
+.nav-item,.table {
   .material-icons:hover {
     color: $success;
   }
@@ -33,7 +33,7 @@
     padding: 0 4px;
     border-radius: 2px;
   }
-  .btn::before {
+  .download-btn::before {
     font-family: 'Material Icons';
     content: "attach_file";
     font-size: 24px;
